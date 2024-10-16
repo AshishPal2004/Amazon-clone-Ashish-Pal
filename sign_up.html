@@ -1,0 +1,126 @@
+<html>
+ <head>
+  <title>
+   Create Account
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            width: 350px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .container img {
+            display: block;
+            margin: 0 auto 20px;
+        }
+        .container h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .container label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .container input[type="text"],
+        .container input[type="email"],
+        .container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+      
+        .container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #f0c14b;
+            border: 1px solid #a88734;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .container p {
+            font-size: 12px;
+            color: #555;
+            margin-top: 20px;
+        }
+        .container a {
+            color: #0066c0;
+            text-decoration: none;
+        }
+        .container a:hover {
+            text-decoration: underline;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+		<a href="/index.html">
+   <img alt="Amazon logo" height="50" src="assets/amazon_logo_dark.png" width="100"/>
+	</a>
+   <h1>
+    Create account
+   </h1>
+   <label for="name">
+    Your name
+   </label>
+   <input class="error" id="name" placeholder="First and last name" type="text"/>
+  
+   <label for="email">
+    Mobile number or email
+   </label>
+   <input id="email" type="email"/>
+   <label for="password">
+    Password
+   </label>
+   <input id="password" placeholder="At least 6 characters" type="password"/>
+   <label for="repassword">
+    Re-enter password
+   </label>
+   <input id="repassword" type="password"/>
+   <button>
+    Continue
+   </button>
+   <p>
+    By creating an account, you agree to Amazon's
+    <a href="#">
+     Conditions of Use
+    </a>
+    and
+    <a href="#">
+     Privacy Notice
+    </a>
+    .
+   </p>
+   <p>
+    <strong>
+     Buying for work?
+    </strong>
+    <a href="#">
+     Create a free business account
+    </a>
+   </p>
+   <p>
+    Already have an account?
+    <a href="/sign_in.html">
+     Sign in
+    </a>
+   </p>
+  </div>
+ </body>
+</html>
