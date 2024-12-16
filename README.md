@@ -1,2 +1,2 @@
-# Amazon-clone-Ashish-Pal
+# Amazon-clone
 amazon clone 
